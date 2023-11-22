@@ -1,0 +1,104 @@
+.about {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    font-family: 'Vollkorn', serif;
+    padding: 96px 0 74px;
+    margin-top: 55px;
+    position: relative;
+}
+
+.about__title {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 97%;
+    margin: 0;
+    position: relative;
+}
+
+.about__title::after {
+    content: "О компании";
+    color: rgba(255, 255, 255, 0.05);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 55%;
+    position: absolute;
+    left: 180px;
+}
+
+.about__description::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 200px;
+    background-color: var(--color-white);
+    position: absolute;
+    left: -20px;
+}
+
+.about__description {
+    margin-left: 135px;
+    padding-top: 90px;
+    width: 585px;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 40px;
+    opacity: 0.8;
+    letter-spacing: 0.3px;
+    position: relative;
+}
+
+.about__image {
+    width: 50%;
+    height: 430px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+.about__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about__characts {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 145px;
+}
+
+.about_charact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about__charact-number {
+    font-size: 64px;
+    font-style: italic;
+    line-height: 55%;
+}
+
+.about__charact-name {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 125%;
+}
+
+.about__charact-name-year {
+    max-width: 88px;
+}
+.about__charact-name-client {
+    max-width: 183px;
+}
+.about__charact-name-people {
+    max-width: 90px;
+}
+.about__charact-name-rescompl {
+    max-width: 256px;
+}
+

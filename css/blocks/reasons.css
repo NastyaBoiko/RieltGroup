@@ -1,0 +1,119 @@
+.reasons {
+    color: #fff;
+    background-color: #161E61;
+    padding-top: 65px;
+}
+
+.reasons__title {
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+    font-size: 36px;
+}
+
+.reasons__title-line {
+    width: 110px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    left: 40px;
+}
+
+.reasons__reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 0 100px;
+}
+
+.reasons__reason {
+    width: 445px;
+    height: 310px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #fff;
+}
+
+.reasons__reason-text {
+    max-width: 340px;
+}
+
+.reasons__white-line {
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+
+
+@media (max-width: 1440px) {
+    .reasons__reason {
+        padding: 18px 22px;
+    }
+    .reasons__reason-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1680px) {
+    .reasons__reason {
+        width: 385px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 768px) {
+    .reasons__reasons {
+        margin: 50px 13% 67px;
+    }
+    .reasons__reason {
+        width: 260px;
+        height: 220px;
+        padding: 15px 20px;
+        gap: 18px;
+    }
+    .reasons__reason-title {
+        font-size: 18px;
+    }
+    .reasons__reason-svg {
+        width: 52px;
+        height: 48px;
+    }
+    .reasons__reason-svg img {
+        width: 100%;
+        height: 100%;
+    }
+    .reasons__reason-text {
+        font-size: 16px;
+    }
+} 
+
+@media (max-width: 660px) {
+    .reasons {
+        padding: 32px 0 0;
+    }
+    .reasons__reasons {
+        padding: 32px 0;
+        margin: 0 auto;
+    }
+    .reasons__title {
+        font-size: 20px;
+    }
+    .reasons__title-line {
+        width: 55px;
+        height: 2px;
+    }
+    .reasons__reason {
+        width: 260px;
+        height: 190px;
+        gap: 14px;
+    }
+    .reasons__reason-text {
+        font-size: 14px;
+    }  
+}

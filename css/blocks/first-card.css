@@ -1,0 +1,232 @@
+.first-card__container {
+    position: relative;
+    height: 100%;
+}
+
+.first-card {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 900px;
+}
+
+.first-card__title {
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.first-card__line {
+    height: 3px;
+    width: 250px;
+    background-color: var(--color-blue);
+    margin: 0 auto;
+    position: relative;
+    left: 80px;
+}
+
+.first-card__left-block {
+    width: 410px;
+    height: 800px;
+    background-color: var(--color-golden);
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.first-card__right-block {
+    width: 250px;
+    height: 50px;
+    background-color: var(--color-golden);
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.first-card__description {
+    font-family: 'Vollkorn', serif;
+    width: 655px;
+    height: 380px;
+    background-color: var(--color-blue);
+    color: #fff;
+    position: absolute;
+    top: 22%;
+    right: 133px;
+}
+
+.first-card__description-title {
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.first-card__description-props {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    padding: 44px 20px;
+    font-size: 20px;
+}
+
+.first-card__description-name, .first-card__description-value {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-card__description-value {
+    text-align: right;
+}
+
+.first-card__img {
+    margin-top: 6%;
+    width: 925px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 133px;
+}
+
+.first-card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 1810px) {
+    .first-card__img {
+        left: 0;
+    }
+
+    .first-card__description {
+        right: 0;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    .first-card__img {
+        width: 75%;
+        height: 72%;
+    }
+
+    .first-card__description {
+        width: 550px;
+        height: 370px;
+    }
+
+    .first-card__left-block {
+        width: 20%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .first-card {
+        height: 680px;
+    }
+
+    .first-card__title {
+        font-size: 32px;
+    }
+
+    .first-card__left-block {
+        width: 127px;
+        height: 540px;
+        top: 102px;
+    }
+
+    .first-card__img {
+        width: 473px;
+        height: 372px;
+        left: 0;
+        top: 10%;
+    }
+
+    .first-card__description {
+        width: 350px;
+        height: 210px;
+        top: 32%;
+    }
+
+    .first-card__description-title {
+        font-size: 20px;
+        padding-top: 21px;
+    }
+
+    .first-card__description-props {
+        display: flex;
+        gap: 25px;
+        padding: 30px;
+        font-size: 14px;
+    }
+    .first-card__description-name, .first-card__description-value {
+        gap: 14px;
+    }
+
+    .first-card__right-block {
+        width: 130px;
+        height: 50px;
+        right: 0;
+        top: 102px;
+    }
+    .first-card__line {
+        height: 2px;
+        width: 144px;
+    }
+}
+
+@media (max-width: 660px) {
+    .first-card {
+        height: auto;
+        padding-top: 32px;
+        padding-bottom: 20px;
+    }
+    .first-card__left-block {
+        display: none;
+    }
+    .first-card__right-block {
+        display: none;
+    }
+    .first-card__text {
+        padding-bottom: 24px;
+    }
+    .first-card__title {
+        font-size: 20px;
+    }
+    .first-card__line {
+        width: 60px;
+        left: 50px;
+    }
+    .first-card__container {
+        width: 300px;
+        height: 380px;
+        background-color: var(--color-blue);
+    }
+    .first-card__img {
+        width: 284px;
+        height: 200px;
+        position: static;
+        margin-top: 0;
+    }
+    .first-card__description {
+        position: static;
+        width: 300px;
+        height: auto;
+    }
+    .first-card__description-title {
+        font-size: 16px;
+        padding-top: 14px;
+    }
+    .first-card__description-props {
+        padding: 22px 16px;
+    }
+    .first-card__description-name, .first-card__description-value {
+        gap: 16px;
+        font-size: 12px;
+    }
+}

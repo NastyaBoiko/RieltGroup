@@ -1,0 +1,68 @@
+.cards {
+    position: relative;
+}
+
+.cards::after {
+    content: "";
+    display: block;
+    width: 410px;
+    height: 2px;
+    background-color: var(--color-blue);
+    position: absolute;
+    right: 0;
+    top: 560px;
+}
+
+.cards::before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 40px;
+    background-color: var(--color-golden);
+    position: absolute;
+    top: 545px;
+}
+
+.cards__container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards__item-wrapper {
+    background-color: var(--color-blue);
+    width: 520px;
+    height: 546px;
+    color: var(--color-white);
+    margin-bottom: 10px;
+}
+
+.cards__item-title {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cards__item-description {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Vollkorn', serif;
+    margin-top: 20px;
+}
+
+.cards__item-names {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    gap: 16px;
+}
+
+.cards__item-values {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+}

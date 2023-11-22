@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подбор новостройки</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+    
+        <div class="container header__container">
+            <a class="header__burger">
+                <svg class="header__burger-svg">
+                    <use xlink:href="sprite.svg#burger" class="header__burger-sprite"></use>
+                </svg>
+            </a>
+
+            <div class="header__logo">
+                <a href="/"><img src="img/logo.jpg" alt="Rielt Group" class="header__logo-img"></a>
+            </div>
+
+            <a href="tel:+79110367710" class="header__phone">
+                <svg class="header__phone-svg">
+                    <use xlink:href="sprite.svg#phone"></use>
+                </svg>
+            </a>
+    
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index.html" class="header__nav-link">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Подбор новостройки</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="about.html" class="header__nav-link">О нас</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="contacts.html" class="header__nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+
+    <main>
+        
+        <section class="search">
+            <div class="container">
+                <h1 class="search__title">Квартиры в новостройках</h1>
+    
+                <div class="search__container">
+        
+                    <select name="price" id="" class="js-choice">
+                        <option value="">Цена</option>
+                        <option value="">до 4 млн</option>
+                        <option value="">до 5 млн</option>
+                        <option value="">до 6 млн</option>
+                        <option value="">до 7 млн</option>
+                        <option value="">до 8 млн</option>
+                        <option value="">до 9 млн</option>
+                        <option value="">до 10 млн</option>
+                        <option value="">до 13 млн</option>
+                        <option value="">до 15 млн</option>
+                        <option value="">более 15 млн</option>
+                    </select>
+        
+                    <select name="number_rooms" id="" class="js-choice2">
+                        <option value="">Количество комнат</option>
+                        <option value="">Студия</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4+</option>
+                    </select>
+        
+                    <select name="area" id="" class="js-choice3">
+                        <option value="">Площадь</option>
+                        <option value="">до 15 м²</option>
+                        <option value="">от 15 до 20 м²</option>
+                        <option value="">от 20 до 25 м²</option>
+                        <option value="">от 25 до 30 м²</option>
+                        <option value="">от 30 до 40 м²</option>
+                        <option value="">от 40 до 50 м²</option>
+                        <option value="">от 50 до 70 м²</option>
+                        <option value="">от 70 до 90 м²</option>
+                        <option value="">от 90 м²</option>
+                    </select>
+        
+                    <select name="district" id="" class="js-choice4">
+                        <option value="">Район</option>
+                        <option value="">Адмиралтейский район</option>
+                        <option value="">Василеостровский район</option>
+                        <option value="">Выборгский район</option>
+                        <option value="">Калининский район</option>
+                        <option value="">Кировский район</option>
+                        <option value="">Колпинский район</option>
+                        <option value="">Красногвардейский район</option>
+                        <option value="">Красносельский район</option>
+                        <option value="">Кронштадтcкий район</option>
+                        <option value="">Курортный район</option>
+                        <option value="">Московский район</option>
+                        <option value="">Невский район</option>
+                        <option value="">Петроградский район</option>
+                        <option value="">Петродворцовый район</option>
+                        <option value="">Приморский район</option>
+                        <option value="">Пушкинский район</option>
+                        <option value="">Фрунзенский район</option>
+                        <option value="">Центральный район</option>
+                    </select>
+        
+                </div>
+                <div class="search__text">
+                    <p class="search__text-extra">Найдено 125 предложений</p>
+                </div>
+    
+            </div>
+    
+        </section>
+    
+        <section class="cards">
+            <div class="container cards__container">
+                <div class="cards__item">
+                    <div class="cards__item-wrapper">
+                        <div class="cards__item-img">
+                            <div class="slider">
+                                <div class="images">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <h2 class="cards__item-title">ЖК Город Первых</h2>
+                        <div class="cards__item-description">
+                            <ul class="cards__item-names">
+                                <li class="cards__item-name">Класс жилья</li>
+                                <li class="cards__item-name">Площадь квартир</li>
+                                <li class="cards__item-name">Цена</li>
+                                <li class="cards__item-name">Срок сдачи</li>
+                            </ul>
+                            <ul class="cards__item-values">
+                                <li class="cards__item-value">Комфорт</li>
+                                <li class="cards__item-value">от 25,3 до 92 м²</li>
+                                <li class="cards__item-value">от 3,7 млн до 13,6 млн ₽</li>
+                                <li class="cards__item-value">4 кв. 2023 – 1 кв. 2031</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <div class="cards__item-wrapper">
+                        <div class="cards__item-img">
+                            <div class="slider">
+                                <div class="images">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <h2 class="cards__item-title">ЖК Город Первых</h2>
+                        <div class="cards__item-description">
+                            <ul class="cards__item-names">
+                                <li class="cards__item-name">Класс жилья</li>
+                                <li class="cards__item-name">Площадь квартир</li>
+                                <li class="cards__item-name">Цена</li>
+                                <li class="cards__item-name">Срок сдачи</li>
+                            </ul>
+                            <ul class="cards__item-values">
+                                <li class="cards__item-value">Комфорт</li>
+                                <li class="cards__item-value">от 25,3 до 92 м²</li>
+                                <li class="cards__item-value">от 3,7 млн до 13,6 млн ₽</li>
+                                <li class="cards__item-value">4 кв. 2023 – 1 кв. 2031</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <div class="cards__item-wrapper">
+                        <div class="cards__item-img">
+                            <div class="slider">
+                                <div class="images">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <h2 class="cards__item-title">ЖК Город Первых</h2>
+                        <div class="cards__item-description">
+                            <ul class="cards__item-names">
+                                <li class="cards__item-name">Класс жилья</li>
+                                <li class="cards__item-name">Площадь квартир</li>
+                                <li class="cards__item-name">Цена</li>
+                                <li class="cards__item-name">Срок сдачи</li>
+                            </ul>
+                            <ul class="cards__item-values">
+                                <li class="cards__item-value">Комфорт</li>
+                                <li class="cards__item-value">от 25,3 до 92 м²</li>
+                                <li class="cards__item-value">от 3,7 млн до 13,6 млн ₽</li>
+                                <li class="cards__item-value">4 кв. 2023 – 1 кв. 2031</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <div class="cards__item-wrapper">
+                        <div class="cards__item-img">
+                            <div class="slider">
+                                <div class="images">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <h2 class="cards__item-title">ЖК Город Первых</h2>
+                        <div class="cards__item-description">
+                            <ul class="cards__item-names">
+                                <li class="cards__item-name">Класс жилья</li>
+                                <li class="cards__item-name">Площадь квартир</li>
+                                <li class="cards__item-name">Цена</li>
+                                <li class="cards__item-name">Срок сдачи</li>
+                            </ul>
+                            <ul class="cards__item-values">
+                                <li class="cards__item-value">Комфорт</li>
+                                <li class="cards__item-value">от 25,3 до 92 м²</li>
+                                <li class="cards__item-value">от 3,7 млн до 13,6 млн ₽</li>
+                                <li class="cards__item-value">4 кв. 2023 – 1 кв. 2031</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <div class="cards__item-wrapper">
+                        <div class="cards__item-img">
+                            <div class="slider">
+                                <div class="images">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
+                                    <img class="image" src="img/hero.jpg" alt="Картинка дома">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <h2 class="cards__item-title">ЖК Город Первых</h2>
+                        <div class="cards__item-description">
+                            <ul class="cards__item-names">
+                                <li class="cards__item-name">Класс жилья</li>
+                                <li class="cards__item-name">Площадь квартир</li>
+                                <li class="cards__item-name">Цена</li>
+                                <li class="cards__item-name">Срок сдачи</li>
+                            </ul>
+                            <ul class="cards__item-values">
+                                <li class="cards__item-value">Комфорт</li>
+                                <li class="cards__item-value">от 25,3 до 92 м²</li>
+                                <li class="cards__item-value">от 3,7 млн до 13,6 млн ₽</li>
+                                <li class="cards__item-value">4 кв. 2023 – 1 кв. 2031</li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="pagination__container">
+                    <div class="pagination__list">
+                        <a href="#">
+                            <svg class="pagination__arrow pagination__arrow-left">
+                                <use xlink:href="sprite.svg#arrow"></use>
+                            </svg>
+                        </a>
+                        <div class="pagination__pages">
+                            <a href="#">1</a>
+                            <a href="#" class="active">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                        </div>
+                        <a href="#">
+                            <svg class="pagination__arrow">
+                                <use xlink:href="sprite.svg#arrow"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <h3 class="footer__company-name">© 2010–2023 ООО “Риэлт-Групп”</h3>
+            <a href="tel:+79110367710" class="footer__phone">Телефон +7 911-036-77-10</a>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+    <script defer src="js/style.js"></script>
+    
+</body>
+</html>

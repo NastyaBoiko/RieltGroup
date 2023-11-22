@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Vollkorn:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+
+/* 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Vollkorn', serif;
+*/
+
+:root {
+    --color-blue: #161E61;
+    --color-golden: #B28728;
+    --color-white: #fff;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-blue);
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media (max-width: 1810px) {
+    .container {
+        width: calc(100% - 280px);
+    }
+}
+
+@media (max-width: 1180px) {
+    .container {
+        width: calc(100% - 120px);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 660px) {
+    .container {
+        width: 300px;
+    }
+}
+
+
+

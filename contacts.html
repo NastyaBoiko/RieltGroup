@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+    
+        <div class="container header__container">
+            <a class="header__burger">
+                <svg class="header__burger-svg">
+                    <use xlink:href="sprite.svg#burger" class="header__burger-sprite"></use>
+                </svg>
+            </a>
+
+            <div class="header__logo">
+                <a href="/"><img src="img/logo.jpg" alt="Rielt Group" class="header__logo-img"></a>
+            </div>
+
+            <a href="tel:+79110367710" class="header__phone">
+                <svg class="header__phone-svg">
+                    <use xlink:href="sprite.svg#phone"></use>
+                </svg>
+            </a>
+    
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">
+                        <a href="index.html" class="header__nav-link">Главная</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="search.html" class="header__nav-link">Подбор новостройки</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="about.html" class="header__nav-link">О нас</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="" class="header__nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacts">
+            <div class="contats__img"></div>
+            <div class="container contacts__container">
+                <div class="contacts__info">
+                    <h2 class="contacts__info-title">Контакты</h2>
+                    <ul class="contacts__info-list">
+                        <li class="contacts__info-item">Телефон</li>
+                        <li class="contacts__info-item"><a href="tel:+79110367710">+7 911-036-77-10</a></li>
+                        <li class="contacts__info-item">Почта</li>
+                        <li class="contacts__info-item">pochta@mail.ru</li>
+                        <li class="contacts__info-item">Часы работы</li>
+                        <li class="contacts__info-item">ПН-ВС 9:00-21:00</li>
+                    </ul>
+                </div>
+                <div class="contacts__form">
+                    <h2 class="contacts__form-title">Напишите нам</h2>
+                    <form class="contacts__form-input" action="#" method="post">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="tel" name="phone" placeholder="Телефон">
+                        <textarea rows="4" name="message" placeholder="Сообщение"></textarea>
+                        <input class="contacts__form-btn" type="submit" value="Отправить">
+    
+                    </form>
+                    <div class="contacts__form-policy">При заполнении форм ввода данных, Вы соглашаетесь с нашей политикой конфиденциальности</div>
+                    
+                </div>
+    
+            </div>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="container footer__container">
+            <h3 class="footer__company-name">© 2010–2023 ООО “Риэлт-Групп”</h3>
+            <a href="tel:+79110367710" class="footer__phone">Телефон +7 911-036-77-10</a>
+
+        </div>
+    </footer>
+    <script defer src="js/style.js"></script>
+    
+</body>
+</html>

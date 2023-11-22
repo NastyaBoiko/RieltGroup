@@ -1,0 +1,125 @@
+.search {
+    position: relative;
+    z-index: 10;
+}
+
+.search__title {
+    color: #161E61;
+    font-family: 'PT Serif', serif;
+    font-size: 48px;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.search__container {
+    background-color: #B28728;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    transform: skewX(-45deg);
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1550px;
+}
+
+/* search */
+
+.choices {
+    max-width: 20vw;
+    font-family: 'Open Sans', sans-serif;  
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    transform: skewX(45deg);
+}
+
+.choices__list--dropdown {
+    border: none;
+    background-color: #B28728;
+    width: 250px;
+}
+
+.choices__inner {
+    border: none;
+    background-color: #B28728;
+}
+
+.choices__placeholder, .choices__item--selectable {
+    opacity: 1;
+    font-size: 20px;
+}
+
+.choices__list--dropdown .choices__item--selectable {
+    padding: 3px;
+    text-align: center;
+}
+
+.choices__list--dropdown .choices__item {
+    font-size: 16px;
+}
+
+.choices__list--dropdown .choices__item--selectable.is-highlighted {
+    background-color: #161E61;
+}
+
+.choices[data-type*=select-one]:after {
+    height: 8px;
+    width: 8px;
+    position: relative;
+    z-index: 3;
+    top: 40%;
+    left: 0px;
+    border: 1px solid #fff;
+    border-width: 0 0 1px 1px;
+    transform: rotate(-45deg);
+    transition: 1s;
+}
+
+.choices[data-type*=select-one].is-open:after {
+    top: 10%;
+    border: 1px solid #fff;
+    border-width: 0 0 1px 1px;
+    transform: rotate(-225deg);
+    transition: 1s;
+}
+
+.choices__list--dropdown .choices__list {
+    max-height: 800px;
+}
+
+.choices__list--single {
+    padding: 15px 14px 15px 4px;
+}
+
+.is-selected {
+    display: none;
+}
+
+/* end search */
+
+.search__text-extra {
+    color: #161E61;
+    font-family: 'Vollkorn', serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.search__text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.search__text::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: #161E61;
+    position: relative;
+    top: -2px;
+    left: 180px;
+    z-index: -1;
+}
+
