@@ -3,6 +3,4 @@
 Проект по созданию сайта для агентства недвижимости
 
 Технологии:
-JavaScript
-HTML
-CSS
+JavaScript, HTML, CSS
