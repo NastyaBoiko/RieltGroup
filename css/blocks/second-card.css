@@ -108,7 +108,7 @@
     font-size: 24px;
 }
 
-@media (max-width: 1810px) {
+@media (max-width: 1720px) {
     .second-card__img {
         right: 0;
     }
@@ -123,7 +123,7 @@
     
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1280px) {
     .second-card__img {
         width: 75%;
         height: 72%;
@@ -156,7 +156,7 @@
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
 
     .second-card {
         height: 736px;

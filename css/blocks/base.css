@@ -26,21 +26,21 @@ html {
     height: 100%;
 }
 
-@media (max-width: 1810px) {
+@media (max-width: 1720px) {
     .container {
-        width: calc(100% - 280px);
+        width: 1160px;
     }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1280px) {
     .container {
-        width: calc(100% - 120px);
+        width: 880px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .container {
-        width: calc(100% - 48px);
+        width: 720px;
     }
 }
 
