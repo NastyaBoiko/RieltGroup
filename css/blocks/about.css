@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin-top: 145px;
+    padding-top: 145px;
 }
 
 .about_charact {
@@ -118,4 +118,44 @@
     .about__description {
         margin-left: 20px;
     }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 40px 0;
+    }
+    .about__title {
+        text-align: center;
+    }
+    .about__title::after {
+        left: 340px;
+    }
+    .about__description::before {
+        height: 160px;
+    }
+    .about__description {
+        padding: 40px 0;
+        width: 705px;
+    }
+    .about__image {
+        position: static;
+        width: 720px;
+        height: 285px;
+    }
+    .about__characts  {
+        flex-wrap: wrap;
+        row-gap: 36px;
+        column-gap: 90px;
+        padding-top: 40px;
+    }
+    .about__charact-number {
+        font-size: 48px;
+    }
+    .about__charact-name {
+        font-size: 20px;
+    }
+    .about_charact:nth-child(even) {
+        width: 300px;
+    }
+
 }

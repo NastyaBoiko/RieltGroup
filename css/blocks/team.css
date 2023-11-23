@@ -119,6 +119,35 @@
     .team__item-btn {
         width: 248px;
         height: 46px;
+    } 
+}
+
+@media (max-width: 768px) {
+    .team__container {
+        row-gap: 50px;
+        padding: 36px 0;
+    }
+    .team__item {
+        width: 276px;
+        height: 430px;
+    }
+    .team__img {
+        width: 258px;
+        height: 278px;
+    }
+    .team__item-frame {
+        top: 20px;
+        left: 15px;
+    }
+    .team__item-desc {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-top: 18px;
+    }
+    .team__item-btn {
+        font-size: 16px;
+        width: 206px;
+        height: 40px;
     }
     
 }
