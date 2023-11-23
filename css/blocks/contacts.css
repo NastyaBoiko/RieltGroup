@@ -28,13 +28,13 @@
 .contacts__info-title {
     font-size: 36px;
     text-align: center;
-    margin-top: 58px;
+    padding-top: 58px;
 }
 
 .contacts__info-list {
     font-size: 24px;
-    margin-left: 28%;
-    margin-top: 68px;
+    padding-left: 28%;
+    padding-top: 68px;
 }
 
 .contacts__info-item:nth-child(even) {
@@ -174,5 +174,63 @@
     .contacts__form {
         padding-top: 0;
         margin-top: -40px;
+    }
+}
+
+@media (max-width: 660px) {
+    .contats__img {
+        height: 90px;
+    }
+    .contacts__container {
+        padding-bottom: 30px;
+        gap: 0;
+    }
+    .contacts__info {
+        width: 280px;
+        height: 320px;
+        top: -55px;
+    }
+    .contacts__info::after {
+        top: 8px;
+        left: 16px;
+    }
+    .contacts__info-title {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .contacts__info-list {
+        font-size: 16px;
+        padding-top: 38px;
+        padding-left: 66px;
+    }
+    .contacts__info-item:nth-child(even) {
+        margin-bottom: 20px;
+    }
+    .contacts__form {
+        width: 300px;
+        margin-top: -20px;
+    }
+    .contacts__form-title {
+        font-size: 20px;
+    }
+    .contacts__form-input input:not(:last-child) {
+        margin-bottom: 22px;
+        font-size: 14px;
+    }
+    .contacts__form-input textarea {
+        margin-top: 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .contacts__form-btn {
+        font-size: 18px;
+        width: 182px;
+        height: 50px;
+        margin: 10px auto;
+    }
+    .contacts__form-policy {
+        margin-top: 5px;
+        font-size: 10px;
+        max-width: 194px;
     }
 }
