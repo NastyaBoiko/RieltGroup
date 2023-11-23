@@ -26,9 +26,10 @@ html {
     height: 100%;
 }
 
+/* 1440 макет */
 @media (max-width: 1720px) {
     .container {
-        width: 1160px;
+        width: 1160px; 
     }
 }
 
@@ -38,12 +39,14 @@ html {
     }
 }
 
+/* Макет 768 */
 @media (max-width: 960px) {
     .container {
         width: 720px;
     }
 }
 
+/* Макет 320 */
 @media (max-width: 660px) {
     .container {
         width: 300px;
