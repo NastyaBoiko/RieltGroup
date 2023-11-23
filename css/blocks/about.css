@@ -90,15 +90,32 @@
 }
 
 .about__charact-name-year {
-    max-width: 88px;
+    width: 88px;
 }
 .about__charact-name-client {
-    max-width: 183px;
+    width: 183px;
 }
 .about__charact-name-people {
-    max-width: 90px;
+    width: 90px;
 }
 .about__charact-name-rescompl {
-    max-width: 256px;
+    width: 172px;
 }
 
+
+@media (max-width: 1440px) {
+    .about__title {
+        font-size: 32px;
+    }
+    .about__title::after {
+        top: 2px;
+        font-size: 48px;
+    }
+    .about__image {
+        width: 630px;
+        top: 70px;
+    }
+    .about__description {
+        margin-left: 20px;
+    }
+}

@@ -61,3 +61,14 @@
     left: 24px;
     
 }
+
+@media (max-width: 1440px) {
+    .services {
+        padding-top: 42px;
+    }
+    .services__container {
+        gap: 20px;
+        justify-content: space-around;
+        padding-right: 0;
+    }
+}
