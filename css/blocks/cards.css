@@ -41,22 +41,21 @@
     font-family: 'PT Serif', serif;
     font-size: 20px;
     text-align: center;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .cards__item-description {
     display: flex;
-    gap: 40px;
+    gap: 100px;
     justify-content: center;
     font-size: 16px;
     font-family: 'Vollkorn', serif;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .cards__item-names {
     display: flex;
     flex-direction: column;
-    width: 190px;
     gap: 16px;
 }
 
@@ -65,4 +64,23 @@
     flex-direction: column;
     align-items: end;
     gap: 16px;
+}
+
+@media (max-width: 1440px) {
+    .cards__item-wrapper {
+        width: 370px;
+        height: 460px;
+    }
+    .cards__item-title {
+        padding-top: 22px;
+    }
+    .cards__item-description {
+        gap: 70px;
+        font-size: 14px;
+        padding-top: 36px;
+    }
+    .cards::after {
+        top: 480px;
+    }
+    
 }

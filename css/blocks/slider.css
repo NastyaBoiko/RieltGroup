@@ -2,8 +2,8 @@
 
 .hvr__images {
     position: relative;
-    width: 495px;
-    height: 322px;
+    width: 100%;
+    height: 100%;
   }
   
   .hvr__sectors {
@@ -22,7 +22,8 @@
   /* не обязательные стили */
   
   .slider {
-    max-width: 495px;
+    width: 495px;
+    height: 322px;
   }
   
   .images {
@@ -52,4 +53,15 @@
   
   .hvr__dot--active {
     background: rgba(255, 255, 255, 0.80);
+  }
+
+  @media (max-width: 1440px) {
+    .slider {
+      width: 354px;
+      height: 234px;
+    }
+    .images {
+      height: 234px;
+    }
+    
   }

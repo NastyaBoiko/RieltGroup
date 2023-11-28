@@ -53,3 +53,10 @@
 a:hover .pagination__arrow {
     fill: var(--color-white);
 }
+
+@media (max-width: 1440px) {
+    .pagination__container {
+        padding: 60px 0;
+    }
+    
+}
