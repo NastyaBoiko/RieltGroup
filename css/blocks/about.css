@@ -157,5 +157,63 @@
     .about_charact:nth-child(even) {
         width: 300px;
     }
+}
 
+@media (max-width: 320px) {
+    .about {
+        padding: 28px 0;
+        margin-top: 35px;
+    }
+    .about__title {
+        font-size: 16px;
+        text-align-last: left;
+        padding-left: 18px;
+    }
+    .about__title::after {
+        font-size: 24px;
+        left: 108px;
+        top: 0;
+    }
+    .about__image {
+        width: 100%;
+        height: 170px;
+    }
+    .about__description {
+        padding: 28px 0;
+        font-size: 14px;
+        width: 282px;
+        line-height: 214.286%;
+        letter-spacing: 0.21px;
+    }
+    .about__description::before {
+        height: 220px;
+    }
+    .about__characts {
+        gap: 0;
+        row-gap: 20px;
+        justify-content: space-between;
+        padding-top: 24px;
+    }
+    .about_charact:nth-child(even) {
+        width: auto;
+    }
+    .about__charact-number {
+        font-size: 36px;
+    }
+    .about__charact-name {
+        font-size: 14px;
+    }
+    .about__charact-name-year {
+        width: 51px;
+    }
+    .about__charact-name-client {
+        width: 60px;
+    }
+    .about__charact-name-people {
+        width: 52px;
+    }
+    .about__charact-name-rescompl {
+        width: 100px;
+    }
+    
 }

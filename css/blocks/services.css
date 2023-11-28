@@ -77,9 +77,6 @@
     .services {
         padding-top: 32px;
     }
-    .services__title {
-        font-size: 32px;
-    }
     .services__title::after {
         left: 40px;
     }
@@ -98,6 +95,27 @@
         height: 100%;
         top: 18px;
         left: 14px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .services, .services__container {
+        padding-top: 24px;
+    }
+    .services__title::after {
+        width: 30px;
+        left: 20px;
+    }
+    .services__item {
+        width: 284px;
+        height: 100px;
+        font-size: 16px;
+        padding: 16px 20px 0 34px;
+        margin-bottom: 16px;
+    }
+    .services__item::after {
+        top: 16px;
     }
     
 }

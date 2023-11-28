@@ -123,9 +123,12 @@
 }
 
 @media (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
     .team__container {
         row-gap: 50px;
-        padding: 36px 0;
+        padding: 36px 30px;
     }
     .team__item {
         width: 276px;
@@ -148,6 +151,40 @@
         font-size: 16px;
         width: 206px;
         height: 40px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 20px;
+    }
+    .team {
+        padding-top: 24px;
+    }
+    .team__title::after {
+        width: 60px;
+        left: 40px;
+    }
+    .team__container {
+        padding: 24px 0;
+        justify-content: center;
+    }
+    .team__item {
+        margin: 0;
+    }
+    .team__img {
+        margin: 0 auto;
+    }
+    .team__item-desc {
+        padding: 16px 0 0;
+        gap: 14px;
+    }
+    .team__item-frame {
+        display: none;
+    }
+    .team__item-btn {
+        margin-top: 12px;
     }
     
 }
