@@ -182,8 +182,7 @@
     height: 100%;
   }
   .itcss__indicators {
-    top: 152px;
-    bottom: auto;
+    display: none;
   }
   
 }
