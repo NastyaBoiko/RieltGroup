@@ -12,6 +12,8 @@
     --color-blue: #161E61;
     --color-golden: #B28728;
     --color-white: #fff;
+    --font-vollkorn: 'Vollkorn', serif;
+    --font-open: 'Open Sans', sans-serif;
 }
 
 html {
