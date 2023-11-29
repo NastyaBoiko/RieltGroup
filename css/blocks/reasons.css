@@ -51,7 +51,7 @@
 }
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1720px) {
     .reasons__reason {
         padding: 18px 22px;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .reasons__reasons {
         margin: 50px 13% 67px;
     }

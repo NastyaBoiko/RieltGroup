@@ -126,13 +126,13 @@
 }
 
 
-@media (max-width: 1440px) {
+@media (max-width: 1720px) {
     .search__container {
         width: 1060px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .search__title {
         font-size: 36px;
         padding-top: 40px;
@@ -140,5 +140,25 @@
     .search__container {
         display: none;
     }
+    .search__text {
+        padding-top: 36px;
+        padding-bottom: 24px;
+    }
+    .search__text-extra {
+        font-size: 20px;
+    }
+    .search__text::after {
+        width: 30px;
+    }
     
 } 
+
+@media (max-width: 660px) {
+    .search__title {
+        font-size: 20px;
+        padding-top: 24px;
+    }
+    .search__text {
+        padding: 24px 0;
+    }
+}

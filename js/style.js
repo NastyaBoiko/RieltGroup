@@ -1,3 +1,5 @@
+// header
+
 const headerBurger = document.querySelector(".header__burger");
 const headerNav = document.querySelector(".header__nav");
 
@@ -18,3 +20,23 @@ window.addEventListener('click', function(event) {
         headerNav.classList.remove("show");
     }
 })
+
+// search title замена текста при экране 320
+
+const searchTitle = document.querySelector(".search__title");
+
+// Создаем медиа условие, проверяющее viewports на ширину менее 768 пикселей.
+const mediaQuery = window.matchMedia('(max-width: 1280px)')
+if (mediaQuery.matches) {
+    searchTitle.innerHTML = "Подбор новостройки";
+}
+// При изменении экрана
+window.addEventListener('resize', function() {
+    let widthScreen = document.querySelector("body").offsetWidth;
+    if (widthScreen < 1280) {
+        searchTitle.innerHTML = "Подбор новостройки";
+    } else {
+        searchTitle.innerHTML = "Квартиры в новостройках";
+    }
+})
+

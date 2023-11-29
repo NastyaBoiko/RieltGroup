@@ -54,9 +54,22 @@ a:hover .pagination__arrow {
     fill: var(--color-white);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1720px) {
     .pagination__container {
         padding: 60px 0;
     }
     
+}
+@media (max-width: 1280px) {
+    .pagination__container {
+        padding: 36px 0;
+    }
+}
+@media (max-width: 660px) {
+    .pagination__list a {
+        width: 35px;
+    }
+    .pagination__list a:nth-child(n+4) {
+        display: none;
+    }
 }
