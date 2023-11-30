@@ -45,19 +45,35 @@
 }
 
 .description__info {
-    width: 655px;
-    padding: 58px 0;
     color: var(--color-white);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.description__text {
+    padding: 58px 0 0;
+    width: 655px;
+    height: 460px;
+    border: solid var(--color-white);
+    border-width: 0 2px 2px 0; 
+    position: relative; 
+}
+.description__text::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: var(--color-white);
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .description__header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 12px;
+    gap: 18px;
 }
 .description__header::after {
     content: "";
@@ -79,4 +95,62 @@
 .description__subway {
     display: flex;
     gap: 42px;
+    font-style: italic;
+}
+
+.subway__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.subway__logo {
+    display: flex;
+    width: 28px;
+    height: 28px;
+}
+.subway__logo_green {
+    fill: #2E9000;
+}
+.subway__logo_orange {
+    fill: #F87700;
+}
+.subway__logo_purple {
+    fill: #A533FF;
+}
+.description__features {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.features__title {
+    font-size: 20px;
+    font-style: italic;
+}
+.features__description {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.features__names, .features__values {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.features__values {
+    align-items: end;
+}
+.description__btn {
+    width: 420px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-golden);
+    font-family: var(--font-open);
+    font-size: 18px;
+    margin-top: 46px;
+    cursor: pointer;
 }
