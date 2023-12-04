@@ -209,3 +209,66 @@
         top: 882px;
     }
 }
+
+
+@media (max-width: 320px) {
+    .description {
+        margin-top: 12px;
+    }
+    .description__container {
+        flex-direction: column-reverse;
+        padding: 24px 0 94px;
+    }
+    .description__slider {
+        width: 100%;
+        height: 190px;
+        margin: 24px auto;
+    } 
+    .description__text {
+        padding-top: 24px;
+        width: 300px;
+        height: 390px;
+    }
+    .description__header {
+        gap: 6px;
+    }
+    .description__title {
+        font-size: 20px;
+    }
+    .description__place {
+        font-size: 12px;
+    }
+    .description__subway {
+        flex-direction: column;
+        font-size: 12px;
+        gap: 12px;
+        padding: 18px 0;
+    }
+    .subway__item {
+        justify-content: start;
+    }
+    .subway__logo {
+        width: 18px;
+        height: 18px;
+    }
+    .description__features{
+        padding: 18px 0;
+        gap: 18px;
+    }
+    .features__description {
+        font-size: 12px;
+        gap: 20px;
+    }
+    .description__btn {
+        top: 632px;
+        width: 220px;
+        height: 64px;
+        font-size: 14px;
+    }
+    .description__btn span {
+        display: block;
+        width: 136px;
+        line-height: 1.8;
+    }
+    
+}
