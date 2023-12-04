@@ -155,7 +155,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1720px) {
     .description__slider {
         width: 500px;
         height: 350px;
@@ -177,7 +177,7 @@
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     .description {
         margin-top: 36px;
     }
@@ -211,7 +211,7 @@
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
     .description {
         margin-top: 12px;
     }
