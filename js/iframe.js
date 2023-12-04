@@ -1,5 +1,4 @@
 const iframe = document.querySelector(".card-info__iframe");
-console.log(iframe);
 // изменение iframe карты для экранов
 
 // Создаем медиа условие, проверяющее viewports на ширину менее 1440 пикселей.
