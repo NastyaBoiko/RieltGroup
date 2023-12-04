@@ -54,6 +54,20 @@
     .card-info__block {
         width: 116px;
         height: 124px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .card-info__container {
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 40px;
+    }
+    .card-info__block {
+        display: none;
+    }
+    .card-info__table {
+        width: 600px;
     }
     
 }

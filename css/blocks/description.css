@@ -176,3 +176,36 @@
     }
     
 }
+
+@media (max-width: 768px) {
+    .description {
+        margin-top: 36px;
+    }
+    .description__container {
+        flex-direction: column-reverse;
+        padding: 32px 0 120px;
+    }
+    .description__slider {
+        width: 635px;
+        height: 390px;
+        margin: 32px auto;
+    }
+    .description__slider .itcss__indicators {
+        top: 360px;
+    }
+    .description__info {
+        position: relative;
+    }
+    .description__text {
+        width: 640px;
+        height: 430px;
+    }
+    .description__block {
+        display: none;
+    }
+    .description__btn {
+        position: absolute;
+        margin: 0 auto;
+        top: 882px;
+    }
+}
