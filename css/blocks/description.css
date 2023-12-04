@@ -94,7 +94,7 @@
 }
 .description__subway {
     display: flex;
-    gap: 42px;
+    gap: 10px;
     font-style: italic;
 }
 
@@ -153,4 +153,26 @@
     font-size: 18px;
     margin-top: 46px;
     cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .description__slider {
+        width: 500px;
+        height: 350px;
+        margin-top: 70px;
+    }
+    .description__slider .itcss__indicators {
+        top: 315px;
+    }
+    .description__block {
+        width: 350px;
+        height: 250px;
+        top: 150px;
+        left: -40px;
+    }
+    .description__text {
+        width: 590px;
+        height: 450px;
+    }
+    
 }

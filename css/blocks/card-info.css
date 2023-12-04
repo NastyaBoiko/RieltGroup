@@ -45,3 +45,15 @@
     right: -48px;
     top: -40px;
 }
+
+@media (max-width: 1440px) {
+    .card-info__table {
+        width: 570px;
+        height: 280px;
+    }
+    .card-info__block {
+        width: 116px;
+        height: 124px;
+    }
+    
+}

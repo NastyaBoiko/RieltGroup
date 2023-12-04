@@ -28,6 +28,7 @@
   backface-visibility: hidden;
   transition: transform 0.5s ease;
   will-change: transform;
+  height: 100%;
 }
 
 /* стили для элементов */
