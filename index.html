@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Анимации -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
@@ -56,12 +57,12 @@
             <div class="container hero__container">
                 <div class="hero__text">
                     <div class="hero__line"></div>
-                    <div class="hero__title animate__animated animate__fadeInLeft">Агентство <br> Недвижимости <br> РИЭЛТ-ГРУПП</div>
-                    <div class="hero__info animate__animated animate__fadeInLeft">Воплотим ваши мечты в реальность</div>
+                    <div class="hero__title wow animate__animated animate__fadeInLeft">Агентство <br> Недвижимости <br> РИЭЛТ-ГРУПП</div>
+                    <div class="hero__info wow animate__animated animate__fadeInLeft">Воплотим ваши мечты в реальность</div>
                 </div>
             </div>
 
-            <div class="hero__slider">
+            <div class="hero__slider wow animate__animated animate__fadeIn" data-wow-duration="2s">
                 <div class="itcss">
                     <div class="itcss__wrapper">
                       <div class="itcss__items">
@@ -98,11 +99,11 @@
     
                 <div class="first-card__container">
     
-                    <a class="first-card__img" href="card.html">
+                    <a class="first-card__img wow animate__animated animate__fadeInLeft" href="card.html">
                         <img src="img/first_card.jpg" alt="Home picture">
                     </a>
         
-                    <a class="first-card__description" href="card.html">
+                    <a class="first-card__description wow animate__animated animate__fadeInLeft" data-wow-delay="0.3s" href="card.html">
                         <h3 class="first-card__description-title">ЖК Город Первых</h3>
                         <div class="first-card__description-props">
         
@@ -133,7 +134,7 @@
     
                 <div class="second-card__container">
                     <div class="second-card__line1"></div>
-                    <a class="second-card__description"  href="card.html">
+                    <a class="second-card__description wow animate__animated animate__fadeInRight" data-wow-delay="0.3s" href="card.html">
                         <h3 class="second-card__description-title">ЖК Город Первых</h3>
                         <div class="second-card__description-props">
         
@@ -153,7 +154,7 @@
                         </div>
                     </a>
         
-                    <a class="second-card__img" href="card.html">
+                    <a class="second-card__img wow animate__animated animate__fadeInRight" href="card.html">
                         <img src="img/second_card.jpg" alt="Home picture">
                     </a>
         
@@ -170,7 +171,7 @@
             <div class="container reasons__container">
                 <h2 class="reasons__title">Почему мы?</h2>
                 <div class="reasons__title-line"></div>
-                <div class="reasons__reasons">
+                <div class="reasons__reasons wow animate__animated animate__fadeInUp">
                     <div class="reasons__reason">
                         <div class="reasons__reason-title">Безопасность сделки</div>
                         <div class="reasons__reason-svg">
@@ -230,6 +231,10 @@
 
     <script defer src="js/slider.js"></script>
     <script defer src="js/style.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
 </body>
 </html>
