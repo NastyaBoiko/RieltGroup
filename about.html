@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- Анимации -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="header">
@@ -49,26 +50,26 @@
     <main>
         <section class="about">
             <div class="container about__container">
-                <h1 class="about__title">О компании</h1>
-                <p class="about__description">ООО "РИЭЛТ ГРУПП" - агентство недвижимости, оказывающее риелторские услуги по продаже городской и загородной недвижимости в Санкт- Петербурге, Ленинградской и Псковской области. Компания образована в апреле 2012 года специалистами более чем с 10-ти летним стажем.</p>
+                <h1 class="about__title wow animate__animated animate__fadeInLeft">О компании</h1>
+                <p class="about__description wow animate__animated animate__fadeInLeft">ООО "РИЭЛТ ГРУПП" - агентство недвижимости, оказывающее риелторские услуги по продаже городской и загородной недвижимости в Санкт- Петербурге, Ленинградской и Псковской области. Компания образована в апреле 2012 года специалистами более чем с 10-ти летним стажем.</p>
                 <div class="about__image">
                     <img src="img/about.jpg" alt="Картинка дома">
                 </div>
 
                 <div class="about__characts">
-                    <div class="about_charact">
+                    <div class="about_charact wow animate__animated animate__fadeIn animate__slow" data-wow-delay="0.2s">
                         <div class="about__charact-number">15</div>
                         <div class="about__charact-name about__charact-name-year">лет на рынке</div>
                     </div>
-                    <div class="about_charact">
+                    <div class="about_charact wow animate__animated animate__fadeIn animate__slow" data-wow-delay="0.4s">
                         <div class="about__charact-number">>100</div>
                         <div class="about__charact-name about__charact-name-client">довольных клиентов за 3 года</div>
                     </div>
-                    <div class="about_charact">
+                    <div class="about_charact wow animate__animated animate__fadeIn animate__slow" data-wow-delay="0.6s">
                         <div class="about__charact-number">4</div>
                         <div class="about__charact-name about__charact-name-people">человека в штате</div>
                     </div>
-                    <div class="about_charact">
+                    <div class="about_charact wow animate__animated animate__fadeIn animate__slow" data-wow-delay="0.8s">
                         <div class="about__charact-number">77</div>
                         <div class="about__charact-name about__charact-name-rescompl">ЖК, с которыми сотрудничаем</div>
                     </div>
@@ -79,22 +80,34 @@
         <section class="services">
             <div class="container">
                 <h2 class="services__title title">Услуги</h2>
-                <div class="services__container">
-                    <div class="services__item">Сопровождение сделок купли, продажи и аренды жилья</div>
-                    <div class="services__item">Консультации по правовым вопросам</div>
-                    <div class="services__item">Подготовка, написание и составление документов</div>
-                    <div class="services__item">Правовая экспертиза документов</div>
-                    <div class="services__item">Представительство в суде</div>
-                    <div class="services__item">Наследственные споры, земельные вопросы, споры с застройщиком</div>
-                </div>
+                <ul class="services__container">
+                    <li class="services__item wow animate__animated animate__fadeInUp">Сопровождение сделок купли, продажи и аренды жилья
+                        <div class="services__item-frame"></div>
+                    </li>
+                    <li class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">Консультации по правовым вопросам
+                        <div class="services__item-frame"></div>
+                    </li>
+                    <li class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">Подготовка, написание и составление документов
+                        <div class="services__item-frame"></div>
+                    </li>
+                    <li class="services__item wow animate__animated animate__fadeInUp">Правовая экспертиза документов
+                        <div class="services__item-frame"></div>
+                    </li>
+                    <li class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">Представительство в суде
+                        <div class="services__item-frame"></div>
+                    </li>
+                    <li class="services__item wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">Наследственные споры, земельные вопросы, споры с застройщиком
+                        <div class="services__item-frame"></div>
+                    </li>
+                </ul>
             </div>
         </section>
 
         <section class="team">
             <div class="container">
                 <h2 class="team__title title">Наша команда</h2>
-                <div class="team__container">
-                    <div class="team__item">
+                <ul class="team__container">
+                    <li class="team__item wow animate__animated animate__fadeInUp">
                         <div class="team__img">
                             <img src="img/team.jpg" alt="Фото">
                         </div>
@@ -105,8 +118,8 @@
                         </div>
                         <div class="team__item-frame"></div>
 
-                    </div>
-                    <div class="team__item">
+                    </li>
+                    <li class="team__item wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="team__img">
                             <img src="img/team.jpg" alt="Фото">
                         </div>
@@ -117,8 +130,8 @@
                         </div>
                         <div class="team__item-frame"></div>
 
-                    </div>
-                    <div class="team__item">
+                    </li>
+                    <li class="team__item wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
                         <div class="team__img">
                             <img src="img/team.jpg" alt="Фото">
                         </div>
@@ -129,8 +142,8 @@
                         </div>
                         <div class="team__item-frame"></div>
 
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -144,6 +157,10 @@
         </div>
     </footer>
     <script defer src="js/style.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
 </body>
 </html>
