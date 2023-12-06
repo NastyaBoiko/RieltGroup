@@ -44,16 +44,17 @@
     margin-bottom: 3px;
 }
 
-.contacts__info::after {
-    content: "";
-    display: block;
+.contacts__info-frame {
     width: 100%;
     height: 100%;
     border: 2px solid var(--color-golden);
     position: absolute;
     top: 21px;
     left: 32px;
-
+    transition: 0.5s;
+}
+.contacts__info:hover .contacts__info-frame {
+    transform: translateX(10px);
 }
 
 .contacts__form {
@@ -127,6 +128,7 @@
     background-color: var(--color-golden);
     border: none;
     cursor: pointer;
+    --animate-duration: 3s;
 }
 
 .contacts__form-policy {

@@ -50,8 +50,6 @@
 }
 
 .services__item-frame {
-    content: "";
-    display: block;
     border: 1px solid #B28728;
     background: rgba(22, 30, 97, 0.00);
     width: 495px;
