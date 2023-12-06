@@ -106,6 +106,8 @@
     background-color: #B28728;
     color: #fff;
     font-size: 24px;
+    /* animate */
+    --animate-duration: 3s;
 }
 
 @media (max-width: 1720px) {
@@ -263,8 +265,9 @@
         order: -1;
         margin: 214px auto 0;
     }
-    
 }
+
+
 
 
 
