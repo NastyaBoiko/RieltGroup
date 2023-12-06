@@ -6,7 +6,8 @@
     <title>Подбор новостройки</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/styles/choices.min.css"/>
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- Анимации -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="header">
@@ -52,7 +53,7 @@
         
         <section class="search">
             <div class="container">
-                <h1 class="search__title">Квартиры в новостройках</h1>
+                <h1 class="search__title animate__animated animate__slideInDown">Квартиры в новостройках</h1>
     
                 <div class="search__container">
         
@@ -125,7 +126,7 @@
     
         <section class="cards">
             <div class="container cards__container">
-                <a class="cards__item" href="card.html">
+                <a class="cards__item wow animate__animated animate__fadeInUp" href="card.html">
                     <div class="cards__item-wrapper">
                         <div class="cards__item-img">
                             <div class="slider">
@@ -156,7 +157,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="cards__item" href="card.html">
+                <a class="cards__item wow animate__animated animate__fadeInUp" href="card.html">
                     <div class="cards__item-wrapper">
                         <div class="cards__item-img">
                             <div class="slider">
@@ -187,7 +188,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="cards__item" href="card.html">
+                <a class="cards__item wow animate__animated animate__fadeInUp" href="card.html">
                     <div class="cards__item-wrapper">
                         <div class="cards__item-img">
                             <div class="slider">
@@ -218,7 +219,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="cards__item" href="card.html">
+                <a class="cards__item wow animate__animated animate__fadeInUp" href="card.html">
                     <div class="cards__item-wrapper">
                         <div class="cards__item-img">
                             <div class="slider">
@@ -249,7 +250,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="cards__item" href="card.html">
+                <a class="cards__item wow animate__animated animate__fadeInUp" href="card.html">
                     <div class="cards__item-wrapper">
                         <div class="cards__item-img">
                             <div class="slider">
@@ -322,6 +323,10 @@
     <script src="js/choices.js"></script>
     <script src="js/hover_slider.js"></script>
     <script defer src="js/style.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
 </body>
 </html>
