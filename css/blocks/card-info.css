@@ -55,12 +55,15 @@
         width: 116px;
         height: 124px;
     }   
+    .card-info__container {
+        padding-bottom: 40px;
+    }
 }
 
 @media (max-width: 1280px) {
     .card-info__container {
         flex-direction: column;
-        padding: 40px 0;
+        padding: 40px 0 16px;
         gap: 40px;
     }
     .card-info__block {
