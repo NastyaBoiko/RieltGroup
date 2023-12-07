@@ -167,6 +167,9 @@
     margin-right: 5px;
     margin-left: 5px;
   }
+  .itcss__indicators {
+    bottom: -30px;
+  }
   
 }
 
