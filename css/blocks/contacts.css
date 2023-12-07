@@ -189,10 +189,10 @@
     }
     .contacts__info {
         width: 280px;
-        height: 660px;
+        height: 320px;
         top: -55px;
     }
-    .contacts__info::after {
+    .contacts__info-frame {
         top: 8px;
         left: 16px;
     }
