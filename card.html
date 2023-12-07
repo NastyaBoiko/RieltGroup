@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ЖК "Город первых"</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Анимации -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="header">
@@ -50,7 +52,7 @@
     <main>
         <section class="description">
             <div class="container description__container">
-                <div class="description__slider">
+                <div class="description__slider wow animate__animated animate__fadeIn">
                     <div class="description__block"></div>
                     <div class="itcss">
                         <div class="itcss__wrapper">
@@ -71,11 +73,10 @@
                         </div>
                         <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
                         <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
-                    </div>
-                    
+                    </div>  
                 </div>
                 <div class="description__info">
-                    <div class="description__text">
+                    <div class="description__text wow animate__animated animate__fadeInRight">
                         <div class="description__header">
                             <h1 class="description__title">ЖК «ГОРОД ПЕРВЫХ»</h1>
                             <p class="description__place">Всеволожский район, д. Новосаратовка</p>
@@ -116,13 +117,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="description__btn btn"><span>Показать телефон +7 (XXX) XXX-XX-XX</span></div>
+                    <div class="description__btn btn wow animate__animated animate__pulse animate__infinite"><span>Показать телефон +7 (XXX) XXX-XX-XX</span></div>
                 </div>
             </div>
         </section>
         <section class="card-info">
             <div class="container card-info__container">
-                <table class="card-info__table">
+                <table class="card-info__table wow animate__animated animate__fadeInLeft">
                     <tbody>
                         <tr>
                             <td>Студии</td>
@@ -146,7 +147,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="card-info__mapblock">
+                <div class="card-info__mapblock wow animate__animated animate__fadeInRight">
                     <div class="card-info__block"></div>
                     <div class="card-info__map">
                         <iframe class="card-info__iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A20357d3627a5eb6cac5c9bc2583ffd4bfbbeff440868c6f9279579827225c2e6&amp;source=constructor" width="680" height="420" frameborder="0"></iframe>
@@ -158,7 +159,7 @@
             <div class="container same__container">
                 <h2 class="same__title title">Похожие</h2>
                 <ul class="same__list">
-                    <li class="same__item item">
+                    <li class="same__item wow animate__animated animate__fadeInUp">
                         <div class="item__slider slider">
                             <div class="images">
                                 <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
@@ -184,7 +185,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="same__item">
+                    <li class="same__item wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
                         <div class="item__slider slider">
                             <div class="images">
                                 <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
@@ -210,7 +211,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="same__item">
+                    <li class="same__item wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
                         <div class="item__slider slider">
                             <div class="images">
                                 <img class="image" src="img/cards_item.jpg" alt="Картинка дома">
@@ -254,6 +255,10 @@
     <script src="js/hover_slider.js"></script>
     <script src="js/card_button.js"></script>
     <script src="js/style.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
 </body>
 </html>

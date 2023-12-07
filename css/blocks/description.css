@@ -153,6 +153,7 @@
     font-size: 18px;
     margin-top: 46px;
     cursor: pointer;
+    --animate-duration: 3s;
 }
 .description__phone {
     font-family: var(--font-vollkorn);
