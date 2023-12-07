@@ -154,6 +154,10 @@
     margin-top: 46px;
     cursor: pointer;
 }
+.description__phone {
+    font-family: var(--font-vollkorn);
+    font-size: 24px;
+}
 
 @media (max-width: 1720px) {
     .description__slider {
