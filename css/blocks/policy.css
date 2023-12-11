@@ -31,3 +31,21 @@
     color: var(--color-white);
     font-size: 20px;
 }
+
+@media (max-width: 660px) {
+    .policy__title {
+        font-size: 24px;
+    }
+    .policy__subtitle {
+        font-size: 20px;
+    }
+    .policy__paragraph {
+        font-size: 14px;
+    }
+    .policy__btn {
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+        margin: 10px auto 0;
+    }
+}
