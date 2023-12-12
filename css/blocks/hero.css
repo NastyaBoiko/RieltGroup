@@ -43,6 +43,7 @@
     width: 3vw;
     height: calc(100% + 138px);
     background-color: var(--color-blue);
+    z-index: 101;
 }
 
 .hero__slider::after {
